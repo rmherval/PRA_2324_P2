@@ -58,7 +58,7 @@ else if(v[medio]> x)
       }
     }
     swap(&v[i], &v[fin]);
-    return i;
+    return i;//nos va a devolver la posicion en la que deja el pivote
   }
 
   T Partition_p(std::vector<T>& v, int ini,int fin){//pivote primero
